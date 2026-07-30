@@ -12,5 +12,5 @@ cheap_filter = (district_code == 0) & (prices < np.mean(prices))
 
 how_many = np.sum(cheap_filter)
 
-print(f"\nOpportunity Houses Count: {how_many}")
+print(f"\nOpportunity Houses Count is: {how_many}")
  
